@@ -146,3 +146,15 @@
     width: 5em;
     padding: .6em;
   }
+
+  /* @media (max-width: 640px) {
+    .masthead-section {
+        background-color:#bc7eb1!important;
+        background-size: cover;
+    }
+    #bgvid-hero { display: none; }
+} */
+
+[poster] {
+    background-color:#bc7eb1!important;
+}
