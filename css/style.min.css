@@ -63,7 +63,50 @@
     left:0;right:0; /* Aligns Horizontally - Remove for Vertical Only  */
   }
 
+  .pulse {
+    margin:100px;
+    display: block;
+    background:rgba(255,255,255, 0.01);
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(255,255,255, 0.5);
+    animation: pulse 2s infinite;
+  }
+  .pulse:hover {
+    animation: none;
+  }
+  
+  @-webkit-keyframes pulse {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(255,255,255, 0.5);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    }
+  }
+  @keyframes pulse {
+    0% {
+      -moz-box-shadow: 0 0 0 0 rgba(255,255,255, 0.5);
+      box-shadow: 0 0 0 0 rgba(255,255,255, 0.5);
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+        box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+        box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    }
+  }
+
   #logo-nav {
       margin-top:8px;
       /* border: 1px solid red; */
+  }
+
+  #reasons-logo {
+    margin: 0 auto;
+    padding-bottom: 1em;
   }
