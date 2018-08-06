@@ -56,3 +56,14 @@
     padding:5px;
 }
     
+#video_overlays {
+    margin:auto; /* Required */
+    position:absolute; /* Required */
+    top:0;bottom:0; /* Aligns Vertically - Remove for Horizontal Only */
+    left:0;right:0; /* Aligns Horizontally - Remove for Vertical Only  */
+  }
+
+  #logo-nav {
+      margin-top:8px;
+      /* border: 1px solid red; */
+  }
