@@ -135,6 +135,8 @@
 
   .pink-squares p {
     color:black;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1.7px;
   }
 
 
@@ -154,4 +156,9 @@
     padding-bottom: .75rem;
     background-color: rgba(86,61,124,.15);
     border: 1px solid rgba(86,61,124,.2);
+}
+
+#bio h3 {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 3px;
 }
